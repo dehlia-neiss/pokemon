@@ -1,0 +1,398 @@
+{
+    "normal": {
+        "pokemons": [
+            {
+                "name": "pidgey",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+                "evolutions": [
+                    "pidgey",
+                    "pidgeotto",
+                    "pidgeot"
+                ]
+            },
+            {
+                "name": "pidgeotto",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+                "evolutions": [
+                    "pidgey",
+                    "pidgeotto",
+                    "pidgeot"
+                ]
+            }
+        ]
+    },
+    "fighting": {
+        "pokemons": [
+            {
+                "name": "mankey",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+                "evolutions": [
+                    "mankey",
+                    "primeape",
+                    "annihilape"
+                ]
+            },
+            {
+                "name": "primeape",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+                "evolutions": [
+                    "mankey",
+                    "primeape",
+                    "annihilape"
+                ]
+            }
+        ]
+    },
+    "flying": {
+        "pokemons": [
+            {
+                "name": "charizard",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+                "evolutions": [
+                    "charmander",
+                    "charmeleon",
+                    "charizard"
+                ]
+            },
+            {
+                "name": "butterfree",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+                "evolutions": [
+                    "caterpie",
+                    "metapod",
+                    "butterfree"
+                ]
+            }
+        ]
+    },
+    "poison": {
+        "pokemons": [
+            {
+                "name": "bulbasaur",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ]
+            },
+            {
+                "name": "ivysaur",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ]
+            }
+        ]
+    },
+    "ground": {
+        "pokemons": [
+            {
+                "name": "sandshrew",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+                "evolutions": [
+                    "sandshrew",
+                    "sandslash"
+                ]
+            },
+            {
+                "name": "sandslash",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+                "evolutions": [
+                    "sandshrew",
+                    "sandslash"
+                ]
+            }
+        ]
+    },
+    "rock": {
+        "pokemons": [
+            {
+                "name": "geodude",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+                "evolutions": [
+                    "geodude",
+                    "graveler",
+                    "golem"
+                ]
+            },
+            {
+                "name": "graveler",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+                "evolutions": [
+                    "geodude",
+                    "graveler",
+                    "golem"
+                ]
+            }
+        ]
+    },
+    "bug": {
+        "pokemons": [
+            {
+                "name": "caterpie",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+                "evolutions": [
+                    "caterpie",
+                    "metapod",
+                    "butterfree"
+                ]
+            },
+            {
+                "name": "metapod",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+                "evolutions": [
+                    "caterpie",
+                    "metapod",
+                    "butterfree"
+                ]
+            }
+        ]
+    },
+    "ghost": {
+        "pokemons": [
+            {
+                "name": "gastly",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+                "evolutions": [
+                    "gastly",
+                    "haunter",
+                    "gengar"
+                ]
+            },
+            {
+                "name": "haunter",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+                "evolutions": [
+                    "gastly",
+                    "haunter",
+                    "gengar"
+                ]
+            }
+        ]
+    },
+    "steel": {
+        "pokemons": [
+            {
+                "name": "magnemite",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+                "evolutions": [
+                    "magnemite",
+                    "magneton",
+                    "magnezone"
+                ]
+            },
+            {
+                "name": "magneton",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+                "evolutions": [
+                    "magnemite",
+                    "magneton",
+                    "magnezone"
+                ]
+            }
+        ]
+    },
+    "fire": {
+        "pokemons": [
+            {
+                "name": "charmander",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+                "evolutions": [
+                    "charmander",
+                    "charmeleon",
+                    "charizard"
+                ]
+            },
+            {
+                "name": "charmeleon",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+                "evolutions": [
+                    "charmander",
+                    "charmeleon",
+                    "charizard"
+                ]
+            }
+        ]
+    },
+    "water": {
+        "pokemons": [
+            {
+                "name": "squirtle",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+                "evolutions": [
+                    "squirtle",
+                    "wartortle",
+                    "blastoise"
+                ]
+            },
+            {
+                "name": "wartortle",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+                "evolutions": [
+                    "squirtle",
+                    "wartortle",
+                    "blastoise"
+                ]
+            }
+        ]
+    },
+    "grass": {
+        "pokemons": [
+            {
+                "name": "bulbasaur",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ]
+            },
+            {
+                "name": "ivysaur",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ]
+            }
+        ]
+    },
+    "electric": {
+        "pokemons": [
+            {
+                "name": "pikachu",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+                "evolutions": [
+                    "pichu",
+                    "pikachu",
+                    "raichu"
+                ]
+            },
+            {
+                "name": "raichu",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+                "evolutions": [
+                    "pichu",
+                    "pikachu",
+                    "raichu"
+                ]
+            }
+        ]
+    },
+    "psychic": {
+        "pokemons": [
+            {
+                "name": "abra",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+                "evolutions": [
+                    "abra",
+                    "kadabra",
+                    "alakazam"
+                ]
+            },
+            {
+                "name": "kadabra",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+                "evolutions": [
+                    "abra",
+                    "kadabra",
+                    "alakazam"
+                ]
+            }
+        ]
+    },
+    "ice": {
+        "pokemons": [
+            {
+                "name": "dewgong",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+                "evolutions": [
+                    "seel",
+                    "dewgong"
+                ]
+            },
+            {
+                "name": "cloyster",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+                "evolutions": [
+                    "shellder",
+                    "cloyster"
+                ]
+            }
+        ]
+    },
+    "dragon": {
+        "pokemons": [
+            {
+                "name": "dratini",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+                "evolutions": [
+                    "dratini",
+                    "dragonair",
+                    "dragonite"
+                ]
+            },
+            {
+                "name": "dragonair",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+                "evolutions": [
+                    "dratini",
+                    "dragonair",
+                    "dragonite"
+                ]
+            }
+        ]
+    },
+    "dark": {
+        "pokemons": [
+            {
+                "name": "umbreon",
+                "image": "",
+                "evolutions": [
+                    "eevee",
+                    "vaporeon"
+                ]
+            },
+            {
+                "name": "murkrow",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+                "evolutions": [
+                    "murkrow",
+                    "honchkrow"
+                ]
+            }
+        ]
+    },
+    "fairy": {
+        "pokemons": [
+            {
+                "name": "clefairy",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+                "evolutions": [
+                    "cleffa",
+                    "clefairy",
+                    "clefable"
+                ]
+            },
+            {
+                "name": "clefable",
+                "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+                "evolutions": [
+                    "cleffa",
+                    "clefairy",
+                    "clefable"
+                ]
+            }
+        ]
+    },
+    "stellar": {
+        "pokemons": []
+    },
+    "unknown": {
+        "pokemons": []
+    }
+}
