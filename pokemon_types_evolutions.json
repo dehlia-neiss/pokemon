@@ -1,0 +1,328 @@
+{
+    "normal": {
+        "pokemons": [
+            "pidgey",
+            "pidgeotto"
+        ],
+        "evolutions": [
+            [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ],
+            [
+                "pidgey",
+                "pidgeotto",
+                "pidgeot"
+            ]
+        ]
+    },
+    "fighting": {
+        "pokemons": [
+            "mankey",
+            "primeape"
+        ],
+        "evolutions": [
+            [
+                "mankey",
+                "primeape",
+                "annihilape"
+            ],
+            [
+                "mankey",
+                "primeape",
+                "annihilape"
+            ]
+        ]
+    },
+    "flying": {
+        "pokemons": [
+            "charizard",
+            "butterfree"
+        ],
+        "evolutions": [
+            [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ]
+        ]
+    },
+    "poison": {
+        "pokemons": [
+            "bulbasaur",
+            "ivysaur"
+        ],
+        "evolutions": [
+            [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ]
+        ]
+    },
+    "ground": {
+        "pokemons": [
+            "sandshrew",
+            "sandslash"
+        ],
+        "evolutions": [
+            [
+                "sandshrew",
+                "sandslash"
+            ],
+            [
+                "sandshrew",
+                "sandslash"
+            ]
+        ]
+    },
+    "rock": {
+        "pokemons": [
+            "geodude",
+            "graveler"
+        ],
+        "evolutions": [
+            [
+                "geodude",
+                "graveler",
+                "golem"
+            ],
+            [
+                "geodude",
+                "graveler",
+                "golem"
+            ]
+        ]
+    },
+    "bug": {
+        "pokemons": [
+            "caterpie",
+            "metapod"
+        ],
+        "evolutions": [
+            [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ],
+            [
+                "caterpie",
+                "metapod",
+                "butterfree"
+            ]
+        ]
+    },
+    "ghost": {
+        "pokemons": [
+            "gastly",
+            "haunter"
+        ],
+        "evolutions": [
+            [
+                "gastly",
+                "haunter",
+                "gengar"
+            ],
+            [
+                "gastly",
+                "haunter",
+                "gengar"
+            ]
+        ]
+    },
+    "steel": {
+        "pokemons": [
+            "magnemite",
+            "magneton"
+        ],
+        "evolutions": [
+            [
+                "magnemite",
+                "magneton",
+                "magnezone"
+            ],
+            [
+                "magnemite",
+                "magneton",
+                "magnezone"
+            ]
+        ]
+    },
+    "fire": {
+        "pokemons": [
+            "charmander",
+            "charmeleon"
+        ],
+        "evolutions": [
+            [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ],
+            [
+                "charmander",
+                "charmeleon",
+                "charizard"
+            ]
+        ]
+    },
+    "water": {
+        "pokemons": [
+            "squirtle",
+            "wartortle"
+        ],
+        "evolutions": [
+            [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ],
+            [
+                "squirtle",
+                "wartortle",
+                "blastoise"
+            ]
+        ]
+    },
+    "grass": {
+        "pokemons": [
+            "bulbasaur",
+            "ivysaur"
+        ],
+        "evolutions": [
+            [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ],
+            [
+                "bulbasaur",
+                "ivysaur",
+                "venusaur"
+            ]
+        ]
+    },
+    "electric": {
+        "pokemons": [
+            "pikachu",
+            "raichu"
+        ],
+        "evolutions": [
+            [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ],
+            [
+                "pichu",
+                "pikachu",
+                "raichu"
+            ]
+        ]
+    },
+    "psychic": {
+        "pokemons": [
+            "abra",
+            "kadabra"
+        ],
+        "evolutions": [
+            [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ],
+            [
+                "abra",
+                "kadabra",
+                "alakazam"
+            ]
+        ]
+    },
+    "ice": {
+        "pokemons": [
+            "dewgong",
+            "cloyster"
+        ],
+        "evolutions": [
+            [
+                "seel",
+                "dewgong"
+            ],
+            [
+                "shellder",
+                "cloyster"
+            ]
+        ]
+    },
+    "dragon": {
+        "pokemons": [
+            "dratini",
+            "dragonair"
+        ],
+        "evolutions": [
+            [
+                "dratini",
+                "dragonair",
+                "dragonite"
+            ],
+            [
+                "dratini",
+                "dragonair",
+                "dragonite"
+            ]
+        ]
+    },
+    "dark": {
+        "pokemons": [
+            "umbreon",
+            "murkrow"
+        ],
+        "evolutions": [
+            [
+                "eevee",
+                "vaporeon"
+            ],
+            [
+                "murkrow",
+                "honchkrow"
+            ]
+        ]
+    },
+    "fairy": {
+        "pokemons": [
+            "clefairy",
+            "clefable"
+        ],
+        "evolutions": [
+            [
+                "cleffa",
+                "clefairy",
+                "clefable"
+            ],
+            [
+                "cleffa",
+                "clefairy",
+                "clefable"
+            ]
+        ]
+    },
+    "stellar": {
+        "pokemons": [],
+        "evolutions": []
+    },
+    "unknown": {
+        "pokemons": [],
+        "evolutions": []
+    }
+}
