@@ -1,0 +1,1385 @@
+{
+    "normal": {
+        "pokemons": [
+            {
+                "name": "pidgey",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/16.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/16.png"
+                },
+                "evolutions": [
+                    "pidgey",
+                    "pidgeotto",
+                    "pidgeot"
+                ],
+                "moves": {
+                    "razor-wind": {
+                        "name": "razor-wind",
+                        "image": null
+                    },
+                    "gust": {
+                        "name": "gust",
+                        "image": null
+                    },
+                    "wing-attack": {
+                        "name": "wing-attack",
+                        "image": null
+                    },
+                    "whirlwind": {
+                        "name": "whirlwind",
+                        "image": null
+                    },
+                    "fly": {
+                        "name": "fly",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "pidgeotto",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/17.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/17.png"
+                },
+                "evolutions": [
+                    "pidgey",
+                    "pidgeotto",
+                    "pidgeot"
+                ],
+                "moves": {
+                    "razor-wind": {
+                        "name": "razor-wind",
+                        "image": null
+                    },
+                    "gust": {
+                        "name": "gust",
+                        "image": null
+                    },
+                    "wing-attack": {
+                        "name": "wing-attack",
+                        "image": null
+                    },
+                    "whirlwind": {
+                        "name": "whirlwind",
+                        "image": null
+                    },
+                    "fly": {
+                        "name": "fly",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "fighting": {
+        "pokemons": [
+            {
+                "name": "mankey",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/56.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/56.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/56.png"
+                },
+                "evolutions": [
+                    "mankey",
+                    "primeape",
+                    "annihilape"
+                ],
+                "moves": {
+                    "karate-chop": {
+                        "name": "karate-chop",
+                        "image": null
+                    },
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "pay-day": {
+                        "name": "pay-day",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "primeape",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/57.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/57.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/57.png"
+                },
+                "evolutions": [
+                    "mankey",
+                    "primeape",
+                    "annihilape"
+                ],
+                "moves": {
+                    "karate-chop": {
+                        "name": "karate-chop",
+                        "image": null
+                    },
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "pay-day": {
+                        "name": "pay-day",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "flying": {
+        "pokemons": [
+            {
+                "name": "charizard",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/6.png"
+                },
+                "evolutions": [
+                    "charmander",
+                    "charmeleon",
+                    "charizard"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "scratch": {
+                        "name": "scratch",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "butterfree",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/12.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/12.png",
+                    "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/12.png",
+                    "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/12.png",
+                    "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/12.png",
+                    "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/12.png"
+                },
+                "evolutions": [
+                    "caterpie",
+                    "metapod",
+                    "butterfree"
+                ],
+                "moves": {
+                    "razor-wind": {
+                        "name": "razor-wind",
+                        "image": null
+                    },
+                    "gust": {
+                        "name": "gust",
+                        "image": null
+                    },
+                    "whirlwind": {
+                        "name": "whirlwind",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "poison": {
+        "pokemons": [
+            {
+                "name": "bulbasaur",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png"
+                },
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ],
+                "moves": {
+                    "razor-wind": {
+                        "name": "razor-wind",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    },
+                    "cut": {
+                        "name": "cut",
+                        "image": null
+                    },
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "vine-whip": {
+                        "name": "vine-whip",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "ivysaur",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/2.png"
+                },
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ],
+                "moves": {
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    },
+                    "cut": {
+                        "name": "cut",
+                        "image": null
+                    },
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "vine-whip": {
+                        "name": "vine-whip",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "ground": {
+        "pokemons": [
+            {
+                "name": "sandshrew",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/27.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/27.png"
+                },
+                "evolutions": [
+                    "sandshrew",
+                    "sandslash"
+                ],
+                "moves": {
+                    "scratch": {
+                        "name": "scratch",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    },
+                    "cut": {
+                        "name": "cut",
+                        "image": null
+                    },
+                    "sand-attack": {
+                        "name": "sand-attack",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "sandslash",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/28.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/28.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/28.png"
+                },
+                "evolutions": [
+                    "sandshrew",
+                    "sandslash"
+                ],
+                "moves": {
+                    "scratch": {
+                        "name": "scratch",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    },
+                    "cut": {
+                        "name": "cut",
+                        "image": null
+                    },
+                    "sand-attack": {
+                        "name": "sand-attack",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "rock": {
+        "pokemons": [
+            {
+                "name": "geodude",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/74.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/74.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/74.png"
+                },
+                "evolutions": [
+                    "geodude",
+                    "graveler",
+                    "golem"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "sand-attack": {
+                        "name": "sand-attack",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "graveler",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/75.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/75.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/75.png"
+                },
+                "evolutions": [
+                    "geodude",
+                    "graveler",
+                    "golem"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "sand-attack": {
+                        "name": "sand-attack",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "bug": {
+        "pokemons": [
+            {
+                "name": "caterpie",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/10.png"
+                },
+                "evolutions": [
+                    "caterpie",
+                    "metapod",
+                    "butterfree"
+                ],
+                "moves": {
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    },
+                    "string-shot": {
+                        "name": "string-shot",
+                        "image": null
+                    },
+                    "snore": {
+                        "name": "snore",
+                        "image": null
+                    },
+                    "bug-bite": {
+                        "name": "bug-bite",
+                        "image": null
+                    },
+                    "electroweb": {
+                        "name": "electroweb",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "metapod",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/11.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/11.png"
+                },
+                "evolutions": [
+                    "caterpie",
+                    "metapod",
+                    "butterfree"
+                ],
+                "moves": {
+                    "string-shot": {
+                        "name": "string-shot",
+                        "image": null
+                    },
+                    "harden": {
+                        "name": "harden",
+                        "image": null
+                    },
+                    "iron-defense": {
+                        "name": "iron-defense",
+                        "image": null
+                    },
+                    "bug-bite": {
+                        "name": "bug-bite",
+                        "image": null
+                    },
+                    "electroweb": {
+                        "name": "electroweb",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "ghost": {
+        "pokemons": [
+            {
+                "name": "gastly",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/92.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/92.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/92.png"
+                },
+                "evolutions": [
+                    "gastly",
+                    "haunter",
+                    "gengar"
+                ],
+                "moves": {
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "disable": {
+                        "name": "disable",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "haunter",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/93.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/93.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/93.png"
+                },
+                "evolutions": [
+                    "gastly",
+                    "haunter",
+                    "gengar"
+                ],
+                "moves": {
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "mega-drain": {
+                        "name": "mega-drain",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "steel": {
+        "pokemons": [
+            {
+                "name": "magnemite",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/81.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/81.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/81.png"
+                },
+                "evolutions": [
+                    "magnemite",
+                    "magneton",
+                    "magnezone"
+                ],
+                "moves": {
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    },
+                    "take-down": {
+                        "name": "take-down",
+                        "image": null
+                    },
+                    "double-edge": {
+                        "name": "double-edge",
+                        "image": null
+                    },
+                    "supersonic": {
+                        "name": "supersonic",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "magneton",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/82.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/82.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/82.png"
+                },
+                "evolutions": [
+                    "magnemite",
+                    "magneton",
+                    "magnezone"
+                ],
+                "moves": {
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    },
+                    "take-down": {
+                        "name": "take-down",
+                        "image": null
+                    },
+                    "double-edge": {
+                        "name": "double-edge",
+                        "image": null
+                    },
+                    "supersonic": {
+                        "name": "supersonic",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "fire": {
+        "pokemons": [
+            {
+                "name": "charmander",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/4.png"
+                },
+                "evolutions": [
+                    "charmander",
+                    "charmeleon",
+                    "charizard"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "scratch": {
+                        "name": "scratch",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "charmeleon",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/5.png"
+                },
+                "evolutions": [
+                    "charmander",
+                    "charmeleon",
+                    "charizard"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "scratch": {
+                        "name": "scratch",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "water": {
+        "pokemons": [
+            {
+                "name": "squirtle",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/7.png"
+                },
+                "evolutions": [
+                    "squirtle",
+                    "wartortle",
+                    "blastoise"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    },
+                    "mega-kick": {
+                        "name": "mega-kick",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "wartortle",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/8.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/8.png"
+                },
+                "evolutions": [
+                    "squirtle",
+                    "wartortle",
+                    "blastoise"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    },
+                    "mega-kick": {
+                        "name": "mega-kick",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "grass": {
+        "pokemons": [
+            {
+                "name": "bulbasaur",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/1.png"
+                },
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ],
+                "moves": {
+                    "razor-wind": {
+                        "name": "razor-wind",
+                        "image": null
+                    },
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    },
+                    "cut": {
+                        "name": "cut",
+                        "image": null
+                    },
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "vine-whip": {
+                        "name": "vine-whip",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "ivysaur",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/2.png"
+                },
+                "evolutions": [
+                    "bulbasaur",
+                    "ivysaur",
+                    "venusaur"
+                ],
+                "moves": {
+                    "swords-dance": {
+                        "name": "swords-dance",
+                        "image": null
+                    },
+                    "cut": {
+                        "name": "cut",
+                        "image": null
+                    },
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "vine-whip": {
+                        "name": "vine-whip",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "electric": {
+        "pokemons": [
+            {
+                "name": "pikachu",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/25.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/25.png",
+                    "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/25.png",
+                    "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/25.png",
+                    "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/25.png",
+                    "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/25.png"
+                },
+                "evolutions": [
+                    "pichu",
+                    "pikachu",
+                    "raichu"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "pay-day": {
+                        "name": "pay-day",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "slam": {
+                        "name": "slam",
+                        "image": null
+                    },
+                    "double-kick": {
+                        "name": "double-kick",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "raichu",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/26.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/26.png",
+                    "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/26.png",
+                    "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/26.png",
+                    "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/26.png",
+                    "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/26.png"
+                },
+                "evolutions": [
+                    "pichu",
+                    "pikachu",
+                    "raichu"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "pay-day": {
+                        "name": "pay-day",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "slam": {
+                        "name": "slam",
+                        "image": null
+                    },
+                    "mega-kick": {
+                        "name": "mega-kick",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "psychic": {
+        "pokemons": [
+            {
+                "name": "abra",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/63.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/63.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/63.png"
+                },
+                "evolutions": [
+                    "abra",
+                    "kadabra",
+                    "alakazam"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "mega-kick": {
+                        "name": "mega-kick",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "kadabra",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/64.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/64.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/64.png",
+                    "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/64.png",
+                    "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/64.png",
+                    "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/64.png",
+                    "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/64.png"
+                },
+                "evolutions": [
+                    "abra",
+                    "kadabra",
+                    "alakazam"
+                ],
+                "moves": {
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    },
+                    "thunder-punch": {
+                        "name": "thunder-punch",
+                        "image": null
+                    },
+                    "mega-kick": {
+                        "name": "mega-kick",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "ice": {
+        "pokemons": [
+            {
+                "name": "dewgong",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/87.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/87.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/87.png"
+                },
+                "evolutions": [
+                    "seel",
+                    "dewgong"
+                ],
+                "moves": {
+                    "pay-day": {
+                        "name": "pay-day",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "horn-drill": {
+                        "name": "horn-drill",
+                        "image": null
+                    },
+                    "body-slam": {
+                        "name": "body-slam",
+                        "image": null
+                    },
+                    "take-down": {
+                        "name": "take-down",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "cloyster",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/91.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/91.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/91.png"
+                },
+                "evolutions": [
+                    "shellder",
+                    "cloyster"
+                ],
+                "moves": {
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "tackle": {
+                        "name": "tackle",
+                        "image": null
+                    },
+                    "body-slam": {
+                        "name": "body-slam",
+                        "image": null
+                    },
+                    "take-down": {
+                        "name": "take-down",
+                        "image": null
+                    },
+                    "double-edge": {
+                        "name": "double-edge",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "dragon": {
+        "pokemons": [
+            {
+                "name": "dratini",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/147.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/147.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/147.png"
+                },
+                "evolutions": [
+                    "dratini",
+                    "dragonair",
+                    "dragonite"
+                ],
+                "moves": {
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "slam": {
+                        "name": "slam",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "body-slam": {
+                        "name": "body-slam",
+                        "image": null
+                    },
+                    "wrap": {
+                        "name": "wrap",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "dragonair",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/148.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/148.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/148.png"
+                },
+                "evolutions": [
+                    "dratini",
+                    "dragonair",
+                    "dragonite"
+                ],
+                "moves": {
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "slam": {
+                        "name": "slam",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "horn-drill": {
+                        "name": "horn-drill",
+                        "image": null
+                    },
+                    "body-slam": {
+                        "name": "body-slam",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "dark": {
+        "pokemons": [
+            {
+                "name": "umbreon",
+                "sprites": {},
+                "evolutions": [
+                    "eevee",
+                    "vaporeon"
+                ],
+                "moves": {
+                    "bind": {
+                        "name": "bind",
+                        "image": null
+                    },
+                    "slam": {
+                        "name": "slam",
+                        "image": null
+                    },
+                    "headbutt": {
+                        "name": "headbutt",
+                        "image": null
+                    },
+                    "horn-drill": {
+                        "name": "horn-drill",
+                        "image": null
+                    },
+                    "body-slam": {
+                        "name": "body-slam",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "murkrow",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/198.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/198.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/198.png",
+                    "front_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/female/198.png",
+                    "back_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/female/198.png",
+                    "front_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/female/198.png",
+                    "back_shiny_female": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/female/198.png"
+                },
+                "evolutions": [
+                    "murkrow",
+                    "honchkrow"
+                ],
+                "moves": {
+                    "gust": {
+                        "name": "gust",
+                        "image": null
+                    },
+                    "wing-attack": {
+                        "name": "wing-attack",
+                        "image": null
+                    },
+                    "whirlwind": {
+                        "name": "whirlwind",
+                        "image": null
+                    },
+                    "fly": {
+                        "name": "fly",
+                        "image": null
+                    },
+                    "take-down": {
+                        "name": "take-down",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "fairy": {
+        "pokemons": [
+            {
+                "name": "clefairy",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/35.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/35.png"
+                },
+                "evolutions": [
+                    "cleffa",
+                    "clefairy",
+                    "clefable"
+                ],
+                "moves": {
+                    "pound": {
+                        "name": "pound",
+                        "image": null
+                    },
+                    "double-slap": {
+                        "name": "double-slap",
+                        "image": null
+                    },
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    }
+                }
+            },
+            {
+                "name": "clefable",
+                "sprites": {
+                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png",
+                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/36.png",
+                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/36.png"
+                },
+                "evolutions": [
+                    "cleffa",
+                    "clefairy",
+                    "clefable"
+                ],
+                "moves": {
+                    "pound": {
+                        "name": "pound",
+                        "image": null
+                    },
+                    "double-slap": {
+                        "name": "double-slap",
+                        "image": null
+                    },
+                    "mega-punch": {
+                        "name": "mega-punch",
+                        "image": null
+                    },
+                    "fire-punch": {
+                        "name": "fire-punch",
+                        "image": null
+                    },
+                    "ice-punch": {
+                        "name": "ice-punch",
+                        "image": null
+                    }
+                }
+            }
+        ]
+    },
+    "stellar": {
+        "pokemons": []
+    },
+    "unknown": {
+        "pokemons": []
+    }
+}
