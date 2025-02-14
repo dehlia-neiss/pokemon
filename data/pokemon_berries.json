@@ -1,0 +1,1284 @@
+{
+    "berries": [
+        {
+            "name": "cheri",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "soft",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/2/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 3,
+                "id": 1,
+                "item": {
+                    "name": "cheri-berry",
+                    "url": "https://pokeapi.co/api/v2/item/126/"
+                },
+                "max_harvest": 5,
+                "name": "cheri",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "fire",
+                    "url": "https://pokeapi.co/api/v2/type/10/"
+                },
+                "size": 20,
+                "smoothness": 25,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "chesto",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "super-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/5/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 3,
+                "id": 2,
+                "item": {
+                    "name": "chesto-berry",
+                    "url": "https://pokeapi.co/api/v2/item/127/"
+                },
+                "max_harvest": 5,
+                "name": "chesto",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "water",
+                    "url": "https://pokeapi.co/api/v2/type/11/"
+                },
+                "size": 80,
+                "smoothness": 25,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "pecha",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "very-soft",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/1/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 3,
+                "id": 3,
+                "item": {
+                    "name": "pecha-berry",
+                    "url": "https://pokeapi.co/api/v2/item/128/"
+                },
+                "max_harvest": 5,
+                "name": "pecha",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "electric",
+                    "url": "https://pokeapi.co/api/v2/type/13/"
+                },
+                "size": 40,
+                "smoothness": 25,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "rawst",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/3/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 3,
+                "id": 4,
+                "item": {
+                    "name": "rawst-berry",
+                    "url": "https://pokeapi.co/api/v2/item/129/"
+                },
+                "max_harvest": 5,
+                "name": "rawst",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "grass",
+                    "url": "https://pokeapi.co/api/v2/type/12/"
+                },
+                "size": 32,
+                "smoothness": 25,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "aspear",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "super-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/5/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 3,
+                "id": 5,
+                "item": {
+                    "name": "aspear-berry",
+                    "url": "https://pokeapi.co/api/v2/item/130/"
+                },
+                "max_harvest": 5,
+                "name": "aspear",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "ice",
+                    "url": "https://pokeapi.co/api/v2/type/15/"
+                },
+                "size": 50,
+                "smoothness": 25,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "leppa",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "very-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/4/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 4,
+                "id": 6,
+                "item": {
+                    "name": "leppa-berry",
+                    "url": "https://pokeapi.co/api/v2/item/131/"
+                },
+                "max_harvest": 5,
+                "name": "leppa",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "fighting",
+                    "url": "https://pokeapi.co/api/v2/type/2/"
+                },
+                "size": 28,
+                "smoothness": 20,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "oran",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "super-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/5/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 4,
+                "id": 7,
+                "item": {
+                    "name": "oran-berry",
+                    "url": "https://pokeapi.co/api/v2/item/132/"
+                },
+                "max_harvest": 5,
+                "name": "oran",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "poison",
+                    "url": "https://pokeapi.co/api/v2/type/4/"
+                },
+                "size": 35,
+                "smoothness": 20,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "persim",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/3/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 4,
+                "id": 8,
+                "item": {
+                    "name": "persim-berry",
+                    "url": "https://pokeapi.co/api/v2/item/133/"
+                },
+                "max_harvest": 5,
+                "name": "persim",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "ground",
+                    "url": "https://pokeapi.co/api/v2/type/5/"
+                },
+                "size": 47,
+                "smoothness": 20,
+                "soil_dryness": 15
+            }
+        },
+        {
+            "name": "lum",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "super-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/5/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 12,
+                "id": 9,
+                "item": {
+                    "name": "lum-berry",
+                    "url": "https://pokeapi.co/api/v2/item/134/"
+                },
+                "max_harvest": 5,
+                "name": "lum",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "flying",
+                    "url": "https://pokeapi.co/api/v2/type/3/"
+                },
+                "size": 34,
+                "smoothness": 20,
+                "soil_dryness": 8
+            }
+        },
+        {
+            "name": "sitrus",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "very-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/4/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 8,
+                "id": 10,
+                "item": {
+                    "name": "sitrus-berry",
+                    "url": "https://pokeapi.co/api/v2/item/135/"
+                },
+                "max_harvest": 5,
+                "name": "sitrus",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "psychic",
+                    "url": "https://pokeapi.co/api/v2/type/14/"
+                },
+                "size": 95,
+                "smoothness": 20,
+                "soil_dryness": 7
+            }
+        },
+        {
+            "name": "figy",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "soft",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/2/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 15
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 5,
+                "id": 11,
+                "item": {
+                    "name": "figy-berry",
+                    "url": "https://pokeapi.co/api/v2/item/136/"
+                },
+                "max_harvest": 5,
+                "name": "figy",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "bug",
+                    "url": "https://pokeapi.co/api/v2/type/7/"
+                },
+                "size": 100,
+                "smoothness": 25,
+                "soil_dryness": 10
+            }
+        },
+        {
+            "name": "wiki",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/3/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 15
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 5,
+                "id": 12,
+                "item": {
+                    "name": "wiki-berry",
+                    "url": "https://pokeapi.co/api/v2/item/137/"
+                },
+                "max_harvest": 5,
+                "name": "wiki",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "rock",
+                    "url": "https://pokeapi.co/api/v2/type/6/"
+                },
+                "size": 115,
+                "smoothness": 25,
+                "soil_dryness": 10
+            }
+        },
+        {
+            "name": "mago",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/3/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 15
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 5,
+                "id": 13,
+                "item": {
+                    "name": "mago-berry",
+                    "url": "https://pokeapi.co/api/v2/item/138/"
+                },
+                "max_harvest": 5,
+                "name": "mago",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "ghost",
+                    "url": "https://pokeapi.co/api/v2/type/8/"
+                },
+                "size": 126,
+                "smoothness": 25,
+                "soil_dryness": 10
+            }
+        },
+        {
+            "name": "aguav",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "super-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/5/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 15
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 5,
+                "id": 14,
+                "item": {
+                    "name": "aguav-berry",
+                    "url": "https://pokeapi.co/api/v2/item/139/"
+                },
+                "max_harvest": 5,
+                "name": "aguav",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "dragon",
+                    "url": "https://pokeapi.co/api/v2/type/16/"
+                },
+                "size": 64,
+                "smoothness": 25,
+                "soil_dryness": 10
+            }
+        },
+        {
+            "name": "iapapa",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "soft",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/2/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 15
+                    }
+                ],
+                "growth_time": 5,
+                "id": 15,
+                "item": {
+                    "name": "iapapa-berry",
+                    "url": "https://pokeapi.co/api/v2/item/140/"
+                },
+                "max_harvest": 5,
+                "name": "iapapa",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "dark",
+                    "url": "https://pokeapi.co/api/v2/type/17/"
+                },
+                "size": 223,
+                "smoothness": 25,
+                "soil_dryness": 10
+            }
+        },
+        {
+            "name": "razz",
+            "effect": "Restore 60 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "very-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/4/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 2,
+                "id": 16,
+                "item": {
+                    "name": "razz-berry",
+                    "url": "https://pokeapi.co/api/v2/item/141/"
+                },
+                "max_harvest": 10,
+                "name": "razz",
+                "natural_gift_power": 60,
+                "natural_gift_type": {
+                    "name": "steel",
+                    "url": "https://pokeapi.co/api/v2/type/9/"
+                },
+                "size": 120,
+                "smoothness": 20,
+                "soil_dryness": 35
+            }
+        },
+        {
+            "name": "bluk",
+            "effect": "Restore 70 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "soft",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/2/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 2,
+                "id": 17,
+                "item": {
+                    "name": "bluk-berry",
+                    "url": "https://pokeapi.co/api/v2/item/142/"
+                },
+                "max_harvest": 10,
+                "name": "bluk",
+                "natural_gift_power": 70,
+                "natural_gift_type": {
+                    "name": "fire",
+                    "url": "https://pokeapi.co/api/v2/type/10/"
+                },
+                "size": 108,
+                "smoothness": 20,
+                "soil_dryness": 35
+            }
+        },
+        {
+            "name": "nanab",
+            "effect": "Restore 70 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "very-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/4/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 0
+                    }
+                ],
+                "growth_time": 2,
+                "id": 18,
+                "item": {
+                    "name": "nanab-berry",
+                    "url": "https://pokeapi.co/api/v2/item/143/"
+                },
+                "max_harvest": 10,
+                "name": "nanab",
+                "natural_gift_power": 70,
+                "natural_gift_type": {
+                    "name": "water",
+                    "url": "https://pokeapi.co/api/v2/type/11/"
+                },
+                "size": 77,
+                "smoothness": 20,
+                "soil_dryness": 35
+            }
+        },
+        {
+            "name": "wepear",
+            "effect": "Restore 70 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "super-hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/5/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 2,
+                "id": 19,
+                "item": {
+                    "name": "wepear-berry",
+                    "url": "https://pokeapi.co/api/v2/item/144/"
+                },
+                "max_harvest": 10,
+                "name": "wepear",
+                "natural_gift_power": 70,
+                "natural_gift_type": {
+                    "name": "electric",
+                    "url": "https://pokeapi.co/api/v2/type/13/"
+                },
+                "size": 74,
+                "smoothness": 20,
+                "soil_dryness": 35
+            }
+        },
+        {
+            "name": "pinap",
+            "effect": "Restore 70 HP",
+            "image": "",
+            "stats": {
+                "firmness": {
+                    "name": "hard",
+                    "url": "https://pokeapi.co/api/v2/berry-firmness/3/"
+                },
+                "flavors": [
+                    {
+                        "flavor": {
+                            "name": "spicy",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/1/"
+                        },
+                        "potency": 10
+                    },
+                    {
+                        "flavor": {
+                            "name": "dry",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/2/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sweet",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/3/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "bitter",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/4/"
+                        },
+                        "potency": 0
+                    },
+                    {
+                        "flavor": {
+                            "name": "sour",
+                            "url": "https://pokeapi.co/api/v2/berry-flavor/5/"
+                        },
+                        "potency": 10
+                    }
+                ],
+                "growth_time": 2,
+                "id": 20,
+                "item": {
+                    "name": "pinap-berry",
+                    "url": "https://pokeapi.co/api/v2/item/145/"
+                },
+                "max_harvest": 10,
+                "name": "pinap",
+                "natural_gift_power": 70,
+                "natural_gift_type": {
+                    "name": "grass",
+                    "url": "https://pokeapi.co/api/v2/type/12/"
+                },
+                "size": 80,
+                "smoothness": 20,
+                "soil_dryness": 35
+            }
+        }
+    ]
+}
