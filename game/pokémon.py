@@ -114,8 +114,10 @@ if response.status_code == 200 and items_response.status_code == 200 and berries
         item_entry = {
             "name": item_data["name"],
             "effect": next((entry["effect"] for entry in item_data.get("effect_entries", []) if entry["language"]["name"] == "en"), "N/A"),
-            "image": item_data["sprites"]["default"] if "sprites" in item_data else "",
-            "stats": item_data  # Ajout de toutes les stats disponibles
+            "stats": {  # Modifié pour ne récupérer que le nom et la description
+                "effect": next((entry["effect"] for entry in item_data.get("effect_entries", []) if entry["language"]["name"] == "en"), "N/A"),
+                "name": item_data["name"]
+            }
         }
         battle_items["items"].append(item_entry)
     
@@ -125,6 +127,6 @@ if response.status_code == 200 and items_response.status_code == 200 and berries
     with open("pokemon_battle_items_stats.json", "w") as file:
         json.dump(battle_items, file, indent=4)
     
-    print("Les données ont été mises à jour avec les stats complètes des objets en anglais uniquement.")
+    print("Les données ont été mises à jour avec les stats complètes des objets.")
 else:
     print("Erreur lors de la récupération des données.")

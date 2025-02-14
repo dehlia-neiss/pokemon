@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "name": "wise-glasses",
+            "effect": "Held: Increases the power of the holder's special moves by 10%."
+        },
+        {
+            "name": "muscle-band",
+            "effect": "Held: Increases the power of the holder's physical moves by 10%."
+        },
+        {
+            "name": "adamant-orb",
+            "effect": "Held by dialga\n:   Holder's dragon- and steel-type moves have 1.2\u00d7 their usual power."
+        },
+        {
+            "name": "lustrous-orb",
+            "effect": "Held by palkia\n:   Holder's dragon- and water-type moves have 1.2\u00d7 their usual power."
+        },
+        {
+            "name": "choice-band",
+            "effect": "Held in battle\n:   Holder has 1.5\u00d7 its Attack.  When the holder attempts to use a move, all its other moves are disabled until it leaves battle or loses this item.\n\n    The restriction ends even if this item is swapped for another Choice item\nvia trick or switcheroo."
+        },
+        {
+            "name": "choice-specs",
+            "effect": "Held: Increases the holder's Special Attack by 50%, but restricts it to the first move it uses until it leaves battle or loses this item.  If this item is swapped for another Choice item via Trick or Switcheroo, the holder's restriction is still lifted, but it will again be restricted to the next move it uses.\n(Quirk: If the holder is switched in by U-Turn and it also knows U-Turn, U-Turn becomes its restricted move.)"
+        },
+        {
+            "name": "life-orb",
+            "effect": "Held: Damage from the holder's moves is increased by 30%.  On each turn the holder uses a damage-inflicting move, it takes 10% its max HP in damage."
+        },
+        {
+            "name": "metronome",
+            "effect": "Held: Each time the holder uses the same move consecutively, its power is increased by another 10% of its original, to a maximum of 100%."
+        },
+        {
+            "name": "expert-belt",
+            "effect": "Held: When the holder hits with a super-effective move, its power is raised by 20%."
+        }
+    ]
+}
