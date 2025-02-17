@@ -1,1 +1,1 @@
-# pokemon
+# its a pokemon game but with only the fight mod and the pokedex you can save your game. he don't have all the pokemon but you can add more if you want you can also use items and level up your fighter enjoy this little game that was made with our hard work and our love .
