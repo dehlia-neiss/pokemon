@@ -2,6 +2,7 @@
 import random
 import json
 import random
+import os
 
 # Tableau des multiplicateurs de type
 TYPE_MULTIPLIERS = {
@@ -18,6 +19,7 @@ TYPE_MULTIPLIERS = {
 class Pokemon:
     def __init__(self, life, name, attack, defense, element, moves, special_attack=50, special_defense=50, possessed_object=None):
         self.life = life
+        self.max_life = life
         self.level = 1  # Niveau par défaut à 1
         self.name = name
         self.attack = attack
@@ -70,11 +72,41 @@ class Combat:
         return damage
 
     def capture_pokemon(self, player, wild_pokemon):
-        if wild_pokemon.life <= wild_pokemon.life * 0.05 and player.pokeballs > 0:
+        if wild_pokemon.life <= (wild_pokemon.max_life * 0.2) and player.pokeballs > 0:
             player.pokeballs -= 1
             print(f"{wild_pokemon.name} a été capturé !")
-            return True
-        return False
+
+            # Charger l'ancienne sauvegarde si elle existe
+            save_file = "sauvegarde.json"
+            if os.path.exists(save_file):
+                with open(save_file, "r") as f:
+                    try:
+                        saved_data = json.load(f)
+                    except json.JSONDecodeError:
+                        saved_data = {"captured_pokemon": []}
+            else:
+                saved_data = {"captured_pokemon": []}
+
+            # Ajouter le Pokémon capturé
+            captured_pokemon = {
+                "name": wild_pokemon.name,
+                "life": wild_pokemon.life,
+                "max_life": wild_pokemon.max_life,
+                "attack": wild_pokemon.attack,
+                "defense": wild_pokemon.defense,
+                "special-attack": wild_pokemon.special_attack,
+                "special-defense": wild_pokemon.special_defense,
+                "element": wild_pokemon.element,
+                "moves": wild_pokemon.moves
+            }
+            saved_data["captured_pokemon"].append(captured_pokemon)
+
+            # Enregistrer dans le fichier sauvegarde.json
+            with open(save_file, "w") as f:
+                json.dump(saved_data, f, indent=4)
+
+            return True  # Capture réussie
+        return False  # Capture échouée
 
     def choose_pokemon(pokedex):
         print("Choisissez un Pokémon parmi ceux disponibles:")
@@ -109,21 +141,20 @@ class Combat:
         for i, move in enumerate(moves, 1):
             print(f"{i}. {move} (Power: {attacker.moves[move]['power']}, Accuracy: {attacker.moves[move]['accuracy']})")
 
-        # Sécurisation de l'entrée utilisateur
         while True:
             try:
                 choice = int(input("Entrez le numéro de votre action: "))
                 if choice == 0:
                     if self.capture_pokemon(attacker, defender):
-                        return f"{defender.name} a été capturé !"  # Arrête le combat si capturé
+                        return "captured"  # Retourne "captured" pour arrêter le combat
                     else:
                         print("La capture a échoué !")
-                        return "La capture a échoué, continuez le combat."
+                        return "failed"
                 elif 1 <= choice <= len(moves):
                     selected_move = moves[choice - 1]
                     damage = self.calculate_damage(attacker.moves[selected_move], attacker, defender)
                     print(f"{attacker.name} utilise {selected_move} et inflige {damage} dégâts à {defender.name}!")
-                    return f"{attacker.name} HP: {attacker.life} | {defender.name} HP: {defender.life}"
+                    return "attack"
                 else:
                     print("Choix invalide, essayez encore.")
             except ValueError:
@@ -132,10 +163,15 @@ class Combat:
     def attack(self):
         while self.fighter1.life > 0 and self.fighter2.life > 0:
             if self.player_turn:
-                self.choose_attack(self.fighter1, self.fighter2)
+                action_result = self.choose_attack(self.fighter1, self.fighter2)
+                if action_result == "captured":  # Arrêter le combat en cas de capture
+                    print(f"{self.fighter2.name} a été capturé ! Fin du combat.")
+                    return  
             else:
                 self.choose_attack(self.fighter2, self.fighter1)
+
             self.player_turn = not self.player_turn
+
         winner = self.fighter1 if self.fighter1.life > 0 else self.fighter2
         print(f"{winner.name} gagne le combat!")
     

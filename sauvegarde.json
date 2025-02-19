@@ -1,0 +1,64 @@
+{
+    "captured_pokemon": [
+        {
+            "name": "mankey",
+            "life": 1,
+            "max_life": 40,
+            "attack": 80,
+            "defense": 35,
+            "special-attack": 35,
+            "special-defense": 45,
+            "element": "fighting",
+            "moves": {
+                "karate-chop": {
+                    "power": 50,
+                    "accuracy": 100,
+                    "pp": 25,
+                    "type": "fighting",
+                    "category": "physical",
+                    "effect": "Inflicts regular damage.  User's critical hit rate is one level higher when using this move.",
+                    "image": ""
+                },
+                "mega-punch": {
+                    "power": 80,
+                    "accuracy": 85,
+                    "pp": 20,
+                    "type": "normal",
+                    "category": "physical",
+                    "effect": "Inflicts regular damage.",
+                    "image": ""
+                }
+            }
+        },
+        {
+            "name": "murkrow",
+            "life": 6,
+            "max_life": 60,
+            "attack": 85,
+            "defense": 42,
+            "special-attack": 85,
+            "special-defense": 42,
+            "element": "dark",
+            "moves": {
+                "gust": {
+                    "power": 40,
+                    "accuracy": 100,
+                    "pp": 35,
+                    "type": "flying",
+                    "category": "special",
+                    "effect": "Inflicts regular damage.\n\nIf the target is under the effect of bounce, fly, or sky drop, this move will hit with double power.",
+                    "image": ""
+                },
+                "wing-attack": {
+                    "power": 60,
+                    "accuracy": 100,
+                    "pp": 35,
+                    "type": "flying",
+                    "category": "physical",
+                    "effect": "Inflicts regular damage.",
+                    "image": ""
+                }
+            }
+        }
+    ]
+}
