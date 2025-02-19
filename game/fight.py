@@ -1,35 +1,33 @@
+
+import random
 import json
 import random
+
+# Tableau des multiplicateurs de type
+TYPE_MULTIPLIERS = {
+    "normal": {"roche": 0.5, "spectre": 0, "acier": 0.5},
+    "plante": {"eau": 2, "feu": 0.5, "plante": 0.5, "poison": 0.5, "sol": 2, "vol": 0.5},
+    "feu": {"plante": 2, "eau": 0.5, "feu": 0.5, "glace": 2, "insecte": 2, "acier": 2, "roche": 0.5, "dragon": 0.5},
+    "eau": {"feu": 2, "plante": 0.5, "eau": 0.5, "sol": 2, "roche": 2, "dragon": 0.5},
+    "electrik": {"eau": 2, "electrik": 0.5, "sol": 0, "vol": 2, "dragon": 0.5},
+    "glace": {"plante": 2, "feu": 0.5, "eau": 0.5, "glace": 0.5, "sol": 2, "vol": 2, "dragon": 2, "acier": 0.5},
+    "combat": {"normal": 2, "glace": 2, "roche": 2, "tenebres": 2, "acier": 2, "poison": 0.5, "vol": 0.5, "psy": 0.5, "spectre": 0, "fee": 0.5},
+    # Ajout d'autres types si nécessaire
+}
+
 class Pokemon:
-    def __init__(self, life, name, attack, defense, element, moves, possessed_object=None):
+    def __init__(self, life, name, attack, defense, element, moves, special_attack=50, special_defense=50, possessed_object=None):
         self.life = life
-        self.level = 1  # Default level is 1
+        self.level = 1  # Niveau par défaut à 1
         self.name = name
         self.attack = attack
         self.defense = defense
-        self.special_attack = 50  # Default special attack
-        self.special_defense = 50  # Default special defense
-        self.element = element  # Type of the Pokémon
-        self.moves = moves  # Pokémon's moves
-        self.possessed_object = possessed_object  # Held item (optional)
-
-    def get_item_modifier(self):
-        # This method returns the multiplier based on the held item
-        item_effects = {
-            "wise-glasses": 1.1,  # Increase power of special moves by 10%
-            "muscle-band": 1.1,   # Increase power of physical moves by 10%
-            "adamant-orb": 1.2,   # Increase dragon- and steel-type moves' power
-            "lustrous-orb": 1.2,  # Increase dragon- and water-type moves' power
-            "choice-band": 1.5,   # Increase Attack by 50%, restrict to one move
-            "choice-specs": 1.5,  # Increase Special Attack by 50%, restrict to one move
-            "life-orb": 1.3,      # Increase damage by 30%, but lose 10% HP per move
-            "metronome": 1.1,     # Increase power of consecutive same moves by 10%
-            "expert-belt": 1.2    # Increase power of super-effective moves by 20%
-        }
-
-        if self.possessed_object in item_effects:
-            return item_effects[self.possessed_object]
-        return 1  # Default modifier (no item or item not in the list)
+        self.special_attack = special_attack
+        self.special_defense = special_defense
+        self.element = element  # Type du Pokémon
+        self.moves = moves  # Attaques du Pokémon
+        self.possessed_object = possessed_object  # Objet tenu par le Pokémon
+        self.pokeballs = 1  # Ajout de pokéballs pour la capture
 
 class Combat:
     def __init__(self, fighter1, fighter2):
@@ -37,71 +35,99 @@ class Combat:
         self.fighter2 = fighter2
         self.player_turn = True
 
-    def second_modifier(self, pokemon):
-        # Modifier for specific held items
-        if pokemon.possessed_object == "orbe de vie":
+    def get_type_multiplier(self, move_type, defender_type):
+        return TYPE_MULTIPLIERS.get(move_type, {}).get(defender_type, 1)
+
+    def second_modifier(self, attacker):
+        if attacker.possessed_object == "orbe de vie":
             return 1.3
-        elif pokemon.possessed_object == "moi d'abord":
+        elif attacker.possessed_object == "moi d'abord":
             return 1.5
-        elif pokemon.possessed_object == "metronome":
-            mod2 = 1
-            for _ in range(3):  # Simulate a combo of consecutive moves
-                mod2 += 0.1
-            return mod2
+        elif attacker.possessed_object == "metronome":
+            return 1.1  # Supposition d'un bonus progressif
         return 1
 
-    def third_modifier(self, attacker, defender, move_effectiveness):
-        # Custom modifiers for specific situations
+    def third_modifier(self, defender, attack_effectiveness):
         sfr = 0.75 if defender.element == "solide roc" else 1
-        eb = 1.2 if attacker.possessed_object == "ceinture pro" else 1
-        tl = 2 if attacker.possessed_object == "lentiteintée" and move_effectiveness == "peu efficace" else 1
+        eb = 1.2 if defender.element == "ceinture pro" else 1
+        tl = 2 if defender.element == "lentiteintée" and attack_effectiveness < 1 else 1
         return sfr * eb * tl
 
     def calculate_damage(self, move, attacker, defender):
         power = move["power"]
         spe_att = attacker.special_attack
         spe_def = defender.special_defense
-        mod1 = 1
-        mod2 = self.second_modifier(attacker)
-        mod3 = self.third_modifier(attacker, defender, "normal")  # Placeholder for effectiveness
-        cc = 1.5 if random.random() < 0.1 else 1  # Critical hit chance
+        type_multiplier = self.get_type_multiplier(move["type"], defender.element)
+        cc = 1.5 if random.random() < 0.1 else 1  # Chance de coup critique
         STAB = 1.5 if move["type"] == attacker.element else 1
-        element1, element2 = 1, 1  # Elemental affinity factors (to be added)
-        r = random.randint(85, 100)  # Random damage variation
-        
-        # Apply item modifier
-        item_modifier = attacker.get_item_modifier()
-        
-        damage = (((((attacker.level * 2 / 5 + 2) * power * spe_att / 50) / spe_def) * mod1) + 2) * cc * mod2 * r / 100 * STAB * element1 * element2 * mod3 * item_modifier
-        
-        # For Life Orb, apply HP drain after calculating damage
-        if attacker.possessed_object == "life-orb":
-            attacker.life -= int(attacker.life * 0.10)
-        
-        # Ensure damage is at least 1, and the opponent's HP doesn't go below 0
+        r = random.randint(85, 100)  # Facteur de variation des dégâts
+        mod2 = self.second_modifier(attacker)
+        mod3 = self.third_modifier(defender, type_multiplier)
+
+        damage = ((((attacker.level * 2 / 5 + 2) * power * spe_att / 50) / spe_def) + 2) * cc * r / 100 * STAB * type_multiplier * mod2 * mod3
         damage = max(1, int(damage))
         defender.life = max(0, defender.life - damage)
         return damage
 
+    def capture_pokemon(self, player, wild_pokemon):
+        if wild_pokemon.life <= wild_pokemon.life * 0.05 and player.pokeballs > 0:
+            player.pokeballs -= 1
+            print(f"{wild_pokemon.name} a été capturé !")
+            return True
+        return False
+
+    def choose_pokemon(pokedex):
+        print("Choisissez un Pokémon parmi ceux disponibles:")
+        all_pokemon = []
+        
+        # Créer une liste de Pokémon avec leur type
+        for type_name, type_category in pokedex.items():
+            for pokemon in type_category["pokemons"]:
+                all_pokemon.append((pokemon, type_name))  # Stocke aussi le type
+
+        # Afficher les Pokémon avec leur type
+        for i, (pokemon, poke_type) in enumerate(all_pokemon, 1):
+            print(f"{i}. {pokemon['name']} ({poke_type})")  # Utilise poke_type au lieu de pokemon['type']
+
+        # Sécurisation de l'entrée utilisateur
+        while True:
+            try:
+                choice = int(input("Entrez le numéro du Pokémon: ")) - 1
+                if 0 <= choice < len(all_pokemon):
+                    return all_pokemon[choice]  # Retourne le Pokémon et son type
+                else:
+                    print("Veuillez entrer un nombre valide.")
+            except ValueError:
+                print("Entrée invalide, veuillez entrer un numéro.")
+
     def choose_attack(self, attacker, defender):
         print(f"{attacker.name} HP: {attacker.life} | {defender.name} HP: {defender.life}")
-        print(f"Choose an attack for {attacker.name}:")
+        print("Actions disponibles :")
+        print("0. Tenter une capture")  # Option pour capturer
+
         moves = list(attacker.moves.keys())
         for i, move in enumerate(moves, 1):
             print(f"{i}. {move} (Power: {attacker.moves[move]['power']}, Accuracy: {attacker.moves[move]['accuracy']})")
-        
+
+        # Sécurisation de l'entrée utilisateur
         while True:
             try:
-                choice = int(input("Enter the number of the attack: ")) - 1
-                if 0 <= choice < len(moves):
-                    selected_move = moves[choice]
+                choice = int(input("Entrez le numéro de votre action: "))
+                if choice == 0:
+                    if self.capture_pokemon(attacker, defender):
+                        return f"{defender.name} a été capturé !"  # Arrête le combat si capturé
+                    else:
+                        print("La capture a échoué !")
+                        return "La capture a échoué, continuez le combat."
+                elif 1 <= choice <= len(moves):
+                    selected_move = moves[choice - 1]
                     damage = self.calculate_damage(attacker.moves[selected_move], attacker, defender)
-                    print(f"{attacker.name} used {selected_move} and dealt {damage} damage to {defender.name}!")
+                    print(f"{attacker.name} utilise {selected_move} et inflige {damage} dégâts à {defender.name}!")
                     return f"{attacker.name} HP: {attacker.life} | {defender.name} HP: {defender.life}"
                 else:
-                    print("Invalid choice, please choose a number from the list.")
+                    print("Choix invalide, essayez encore.")
             except ValueError:
-                print("Please enter a valid number.")
+                print("Entrée invalide, veuillez entrer un numéro.")
 
     def attack(self):
         while self.fighter1.life > 0 and self.fighter2.life > 0:
@@ -111,57 +137,54 @@ class Combat:
                 self.choose_attack(self.fighter2, self.fighter1)
             self.player_turn = not self.player_turn
         winner = self.fighter1 if self.fighter1.life > 0 else self.fighter2
-        print(f"{winner.name} wins the battle!")
-
-def choose_pokemon(pokedex):
-    print("Choose your Pokémon:")
-    all_pokemons = []
-
-    # Debugging the structure of pokedex
-    print("Pokedex structure:", pokedex)
-
-    for category in pokedex.values():
-        # Debugging each category
-        print("Category data:", category)
-        
-        if "pokemons" in category:
-            all_pokemons.extend(category["pokemons"])
-        else:
-            print("No 'pokemons' key found in category:", category)
-
-    for i, p in enumerate(all_pokemons, 1):
-        print(f"{i}. {p['name']}")
-
-    choice = int(input("Enter the number of your Pokémon: ")) - 1
-    if 0 <= choice < len(all_pokemons):
-        p_data = all_pokemons[choice]
-        return Pokemon(
-            life=p_data["stats"]["hp"], 
-            name=p_data["name"], 
-            attack=p_data["stats"]["attack"],
-            defense=p_data["stats"]["defense"], 
-            element="normal",  # Here you can change the element dynamically, if needed
-            moves=p_data["moves"]
-        )
-    return None
-
-def capture_pokemon(self, wild_pokemon):
-    if wild_pokemon.life / wild_pokemon.max_life <= 0.05 and self.pokeballs > 0:
-        self.pokeballs -= 1
-        print(f"{wild_pokemon.name} has been captured!")
-        return True
-    print("Capture failed! Either the Pokémon has too much health or you have no Pokéballs left.")
-    return False
+        print(f"{winner.name} gagne le combat!")
+    
+    def find_pokemon_type(pokedex, pokemon_name):
+        """Trouve le type d'un Pokémon à partir du JSON."""
+        for type_name, type_data in pokedex.items():
+            for pokemon in type_data["pokemons"]:
+                if pokemon["name"] == pokemon_name:
+                    return type_name  # Retourne le type trouvé
+        return "normal" 
 
 if __name__ == "__main__":
     with open("pokedex.json", "r") as f:
         pokedex = json.load(f)
+
+    # Choix du premier Pokémon
+    print("Bienvenue dans le monde des Pokémon !")
+    p1_data, p1_type = Combat.choose_pokemon(pokedex)
+
+    # Choix du deuxième Pokémon aléatoire
+    all_pokemon = []
+    for type_category in pokedex.values():
+        all_pokemon.extend(type_category["pokemons"])  # Récupérer tous les Pokémon
+    p2_data, p2_type = random.choice([(p, t) for t, v in pokedex.items() for p in v["pokemons"]])  # Sélection aléatoire parmi tous les Pokémon
+
+      # Récupère le Pokémon ET son type
     
-    p1 = choose_pokemon(pokedex)
-    p2 = choose_pokemon(pokedex)
-    
-    if p1 and p2:
-        combat = Combat(p1, p2)
-        combat.attack()
-    else:
-        print("Invalid Pokémon selection.")
+
+    p1 = Pokemon(
+        life=p1_data["stats"]["hp"], 
+        attack=p1_data["stats"]["attack"], 
+        defense=p1_data["stats"]["defense"], 
+        special_attack=p1_data["stats"]["special-attack"], 
+        special_defense=p1_data["stats"]["special-defense"], 
+        name=p1_data["name"], 
+        element=p1_type,  # Utilisation du type trouvé
+        moves=p1_data["moves"]
+    )
+
+    p2 = Pokemon(
+        life=p2_data["stats"]["hp"], 
+        attack=p2_data["stats"]["attack"], 
+        defense=p2_data["stats"]["defense"], 
+        special_attack=p2_data["stats"]["special-attack"], 
+        special_defense=p2_data["stats"]["special-defense"], 
+        name=p2_data["name"], 
+        element=p2_type,  # Utilisation du type trouvé
+        moves=p2_data["moves"]
+    )
+            
+    combat = Combat(p1, p2)
+    combat.attack()
